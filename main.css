@@ -6,11 +6,31 @@ body {
     font-family: sans-serif;
     color: azure;
     text-align: center;
-
 }
 
-header {
-    font-size: xx-large;
+.logo {
+    width: 100px;
+    transition: 1s;
+}
+
+.logo:hover {
+    width: 120px;
+}
+
+.navigation {
+    margin-bottom: 10px;
+    width: 120px;
+    font-size: large;
+    color:white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.navigation:hover {
+    color:chartreuse;
+    cursor: pointer;
 }
 
 h1 {
@@ -18,20 +38,15 @@ h1 {
 }
 
 a {
-    color:azure
+    color:white;
+    transition: 0.5s;
 }
 
 a:hover {
-    color:chartreuse
-}
-
-.navigation-bar {
-    display:inline-block;
-    background-color:black;
-    padding: 10px;
+    color:chartreuse;
 }
 
 hr {
     width:10%;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
