@@ -1,7 +1,7 @@
 body {
-    background-image:url("material/poly.png ");
+    background-image: url("material/poly.png ");
     background-color: black;
-    background-size:cover;
+    background-size: cover;
     background-attachment: fixed;
     font-family: sans-serif;
     color: azure;
@@ -21,32 +21,61 @@ body {
     margin-bottom: 10px;
     width: 120px;
     font-size: large;
-    color:white;
+    color: white;
     background-color: black;
     padding: 10px;
     border-radius: 15px;
-    transition: 1s;
+    transition: 0.15s;
 }
 
 .navigation:hover {
-    color:chartreuse;
+    color: chartreuse;
     cursor: pointer;
 }
 
 h1 {
-    color:chartreuse
+    color: chartreuse
 }
 
 a {
-    color:white;
-    transition: 0.5s;
+    color: white;
+    transition: 0.15s;
 }
 
 a:hover {
-    color:chartreuse;
+    color: chartreuse;
 }
 
 hr {
-    width:10%;
+    width: 10%;
     margin-bottom: 100px;
+}
+
+.btc-logo {
+    width: 50px;
+    margin-right: 10px;
+    transition: 0.15s
+}
+
+.btc-logo:hover {
+    width: 60px;
+    cursor: pointer;
+}
+
+.socials-logo {
+    width: 50px;
+    transition: 0.15s;
+}
+
+.socials-logo:hover {
+    width: 60px;
+}
+
+.download-image {
+    width: 200px;
+    transition: 0.15s;
+}
+
+.download-image:hover {
+    width: 240px
 }
